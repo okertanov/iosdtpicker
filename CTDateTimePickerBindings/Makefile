@@ -19,7 +19,7 @@ definitions:
 	$(SHARPIE) xcode -sdks
 	$(SHARPIE) \
 		-tlm-do-not-submit -tlm-do-not-identify \
-		bind --sdk=iphoneos8.2 --namespace=CTDateTimePickerBindings \
+		bind --sdk=iphoneos9.2 --namespace=CTDateTimePickerBindings \
 		-scope $(LIB_DIR) $(LIB_DIR)/CTDateTimePicker.h
 
 getlib: $(LIB_PATH)

@@ -5,9 +5,9 @@
 BUILD_CFG='Release'
 SIM_ARCHS='i386 x86_64'
 ARM_ARCHS='armv7 armv7s arm64'
-DEPLOYMENT_TARGET='8.1'
-SIM_SDK='iphonesimulator9.1'
-DEV_SDK='iphoneos9.1'
+DEPLOYMENT_TARGET='8.2'
+SIM_SDK='iphonesimulator9.2'
+DEV_SDK='iphoneos9.2'
 PROJ_NAME='CTDateTimePicker.xcodeproj'
 LIB_NAME=libCTDateTimePicker
 
