@@ -17,6 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString* htmlString = [[NSString alloc] init];
+    [[NSAttributedString alloc] initWithData:[htmlString dataUsingEncoding:NSUTF8StringEncoding]
+                                     options:@{NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType,
+                                               NSCharacterEncodingDocumentAttribute: @(NSUTF8StringEncoding)}
+                          documentAttributes:nil error:nil];
 }
 
 - (void)didReceiveMemoryWarning {
